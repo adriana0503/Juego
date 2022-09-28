@@ -1,10 +1,9 @@
 import java.util.Scanner;
-import java.util.Random;
 
 public class vspiratas {
    public static void main(String[] args) {
       Scanner leer = new Scanner(System.in);
-      int aleatorio, respuesta;
+      int respuesta;
       personajes jugador1 = null;
       personajes jugador2 = null;
       System.out.println("Bienvenidos a VS entre piratas");
