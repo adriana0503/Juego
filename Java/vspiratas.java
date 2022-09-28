@@ -3,13 +3,14 @@ import java.util.Scanner;
 public class vspiratas {
    public static void main(String[] args) {
       Scanner leer = new Scanner(System.in);
+      String nombre1, nombre2;
       int respuesta, respuesta2;
       personajes jugador1 = null;
       personajes jugador2 = null;
       System.out.println("Bienvenidos a VS entre piratas");
       System.out.println("");
       System.out.println("Dime tu nombre jugador 1");
-      String nombre1 = leer.next();
+      nombre1 = leer.next();
       
          System.out.println(nombre1+ " ¿cuál de estos personajes desea utilizar?");
 
@@ -55,7 +56,7 @@ public class vspiratas {
       leer.nextLine();
       // limpiarp();
       System.out.println("Dime tu nombre jugador 2");
-      String nombre2 = leer.next();
+      nombre2 = leer.next();
       System.out.println(nombre2+ " ¿cuál de estos personajes desea utilizar?");
 
       luffy.tostring();
