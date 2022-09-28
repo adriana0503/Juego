@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class vspiratas {
    public static void main(String[] args) {
       Scanner leer = new Scanner(System.in);
-      int respuesta;
+      int respuesta, respuesta2;
       personajes jugador1 = null;
       personajes jugador2 = null;
       System.out.println("Bienvenidos a VS entre piratas");
@@ -62,7 +62,7 @@ public class vspiratas {
       barbanegra.tostring();
       shaks.tostring();
       buggy.tostring();
-      int respuesta2 = leer.nextInt();
+      respuesta2 = leer.nextInt();
 
       if (respuesta2 == 1) {
          jugador2 = new luffy();
