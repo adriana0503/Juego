@@ -10,7 +10,7 @@ public class vspiratas {
       System.out.println("");
       System.out.println("Dime tu nombre jugador 1");
       String nombre1 = leer.next();
-      do {
+      
          System.out.println(nombre1+ " ¿cuál de estos personajes desea utilizar?");
 
          luffy.tostring();
@@ -51,7 +51,7 @@ public class vspiratas {
             System.out.println("Solo son 4 personajes");
             System.out.println("");
          }
-      } while (respuesta > 4);
+      
       leer.nextLine();
       // limpiarp();
       System.out.println("Dime tu nombre jugador 2");
